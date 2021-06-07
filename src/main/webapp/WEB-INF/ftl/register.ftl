@@ -58,7 +58,7 @@
               </div>
               <div class="col-4 text-center">
                 <b>
-                    <a class="blog-header-logo text-dark" href="./index.html">CS必读书籍📕📗📘📒</a>
+                    <a class="blog-header-logo text-dark" href="/">CS必读书籍📕📗📘📒</a>
                 </b>
               </div>
               <div class="col-4 d-flex justify-content-end align-items-center">
