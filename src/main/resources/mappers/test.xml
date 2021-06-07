@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cagyj.books.mapper.TestMapper">
+    <insert id="insertSample">
+        insert into cagy.test(name) values ('Tester')
+    </insert>
+    <select id="selectAll" resultType="java.util.LinkedHashMap">
+        select name from cagy.test
+    </select>
+</mapper>
